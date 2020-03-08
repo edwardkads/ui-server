@@ -1,0 +1,30 @@
+{
+  "name": "ui-server",
+  "version": "1.0.0",
+  "description": "Nodejs server for ui-wireframing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwardkads/ui-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edwardkads/ui-server/issues"
+  },
+  "homepage": "https://github.com/edwardkads/ui-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jest": "^25.1.0",
+    "mongodb": "^3.5.4",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {}
+}
